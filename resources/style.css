@@ -6,6 +6,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
 }
 
 /*header*/
@@ -14,14 +15,16 @@ header{
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  z-index: 1;
   width: 100%;
-  height: 100px;
+  height: 69px;
   background-color: black;
   border-bottom: 1px solid white;
 }
 
 .logo img{
-  margin-right: 12px;
+  margin-left: 10px;
+  height: 50px;
 }
 
 nav span{
@@ -31,4 +34,24 @@ nav span{
 
  nav a{
    color: white;
+ }
+
+/*mission*/
+.mission{
+  background-image: url(/Users/taylorray/Desktop/projects/TeaCozy/images/img-mission-background.jpg);
+}
+
+
+
+
+
+
+
+
+ /*footer*/
+ .info{
+   text-align: center;
+ }
+ .copyright{
+   text-align: left;
  }
