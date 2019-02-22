@@ -38,8 +38,19 @@ nav span{
 
 /*mission*/
 .mission{
-  background-image: url(/Users/taylorray/Desktop/projects/TeaCozy/images/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
 }
+
+.mtag{
+  width: 1200px;
+  background-color: black;
+}
+
+/*tea of the month*/
 
 
 
