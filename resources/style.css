@@ -40,8 +40,10 @@ nav a{
 .mission{
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -52,8 +54,17 @@ nav a{
 
 /*tea of the month*/
 .monthly{
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.photo{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 1000px;
 }
 
@@ -74,6 +85,8 @@ nav a{
   justify-content: center;
   flex-direction: column;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
 }
 
