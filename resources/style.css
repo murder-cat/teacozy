@@ -57,12 +57,18 @@ nav span{
   width: 1000px;
 }
 
+.photo .tea{
+  display: inline-block;
+}
+
 .tea{
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   height: 200px;
   width: 300px;
+  padding: 10px;
 }
 
 
