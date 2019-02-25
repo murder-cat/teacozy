@@ -32,9 +32,9 @@ nav span{
   padding: 20px 10px;
 }
 
- nav a{
-   color: white;
- }
+nav a{
+  color: white;
+}
 
 /*mission*/
 .mission{
@@ -71,7 +71,16 @@ nav span{
   padding: 10px;
 }
 
+/*loactions*/
+.locations{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+}
 
+.locations .place{
+  background-color: black;
+}
 
 
 
@@ -79,9 +88,9 @@ nav span{
 
 
  /*footer*/
- .info{
-   text-align: center;
- }
- .copyright{
-   text-align: left;
- }
+.info{
+  text-align: center;
+}
+.copyright{
+  text-align: left;
+}
