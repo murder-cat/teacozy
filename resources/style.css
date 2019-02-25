@@ -61,47 +61,37 @@ nav a{
   display: inline-block;
 }
 
-.tea{
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 200px;
+.tea img{
   width: 300px;
-  padding: 10px;
+  height: 200px;
+  margin: 10px;
 }
 
 /*loactions*/
-.locate.me{
+.locate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
 }
 
-.locate.me h3{
-  text-align: center;
-}
-
 .locations{
   display: flex;
-}
-
-.locations .place{
-  display: block;
-
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
 }
 
 .place{
+  display: flex;
+  flex-direction: column;
   background-color: black;
-  padding-top: 15px;
-  padding-left: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
   width: 300px;
-  height: 300px;
-  margin: auto;
 }
-
-
-
-
 
 
  /*footer*/
